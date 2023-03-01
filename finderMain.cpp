@@ -64,12 +64,11 @@ public:
 				found = true;
 				break;
 			}
-			if(!found)
+		}
+		if(!found)
 			{
 				cout << "\nValue " << findValue << " not found.\n";
 			}
-
-		}
 	}
 };
 
